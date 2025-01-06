@@ -1,4 +1,6 @@
 import hashlib
+from datetime import time
+
 from .utils import BlockHash  # ייבוא BlockHash
 from .transaction import Transaction  # ייבוא Transaction
 from typing import List  # עבור רשימות
